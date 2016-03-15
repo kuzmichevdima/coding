@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upsolving_mipt_4", "upsolving_mipt_4\upsolving_mipt_4.vcproj", "{F808A978-F50C-47CF-9469-F8FF2F961E59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F808A978-F50C-47CF-9469-F8FF2F961E59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F808A978-F50C-47CF-9469-F8FF2F961E59}.Debug|Win32.Build.0 = Debug|Win32
+		{F808A978-F50C-47CF-9469-F8FF2F961E59}.Release|Win32.ActiveCfg = Release|Win32
+		{F808A978-F50C-47CF-9469-F8FF2F961E59}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

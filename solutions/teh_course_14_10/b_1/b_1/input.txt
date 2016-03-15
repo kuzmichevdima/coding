@@ -1,0 +1,12 @@
+11 2
+ABRACADABRA
+
+5 3
+aaAaa
+
+
+
+2 1
+aA
+
+

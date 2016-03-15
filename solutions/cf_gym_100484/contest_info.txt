@@ -1,0 +1,12 @@
++A divisibility; ДП
+B; ??
++C expression; идея
+D; ??
++E lock manager; реализация
++F dictionary; халява
++G highways; MST, графы, 
++H advertisement; жадность
+I random route; графы, вероятность
+J; ??
+K completion; ДП	
++L cow acrobats; жадность
