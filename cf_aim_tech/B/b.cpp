@@ -74,16 +74,16 @@ inline i64 solve(int div, int L, int R)
     return result;
 }
 
-inline void work_with(int x, int L, int R)
+inline void work_with(int x, int L, int R, int delta)
 {
     for (int d = 2; d * d <= x; d++) if (x % d == 0 && !mark[d])
     {
         while(x % d == 0)
             x /= d;
-        answer = min(answer, solve(d, L, R));
+        answer = min(answer, solve(d, L, R) + delta);
     }
     if (x != 1)
-        answer = min(answer, solve(x, L, R));
+        answer = min(answer, solve(x, L, R) + delta);
 }
 
 void precalc()
@@ -106,7 +106,9 @@ int main() {
         scanf("%d", &a[i]);
     precalc();
     answer = inf;
-    work_with(a[0], 1, n - 1);
-    work_with(a[n - 1], 0, n - 2);
+    fore(j, -1, 1)
+        work_with(a[0] + j, 1, n - 1, abs(j) * B);
+    fore(j, -1, 1)
+        work_with(a[n - 1] + j, 0, n - 2, abs(j) * B);
     cout << answer;
 }
