@@ -100,7 +100,7 @@ void read(vector <base> & a, bool & flag)
 
 int main()
 {
-	freopen("input.txt", "r", stdin);
+	//freopen("input.txt", "r", stdin);
 	//freopen("output.txt", "w", stdout);
 	vector <base> a, b;
 	bool flaga, flagb;
