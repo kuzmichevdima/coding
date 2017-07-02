@@ -1,0 +1,65 @@
+2 warnings generated.
+Number of vertices NV = 20
+Number of edges NE = 69
+Distortion percentage = 74
+Min ratio = 0.45743892149067394
+Max ratio = 3.96849796354607
+Test 2 Score = 0.11526752078308419
+
+Number of vertices NV = 1000
+Number of edges NE = 7395
+Distortion percentage = 48
+Min ratio = 0.2107180373327521
+Max ratio = 9.2965047195169
+Test 3 Score = 0.022666372329201833
+
+Number of vertices NV = 761
+Number of edges NE = 3992
+Distortion percentage = 68
+Min ratio = 0.03353119686949966
+Max ratio = 4.125
+Test 4 Score = 0.008128774998666584
+
+Number of vertices NV = 852
+Number of edges NE = 4228
+Distortion percentage = 32
+Min ratio = 0.020727721599970668
+Max ratio = 7.120112358664012
+Test 5 Score = 0.002911150913896523
+
+Number of vertices NV = 586
+Number of edges NE = 1714
+Distortion percentage = 59
+Min ratio = 0.2711947719168228
+Max ratio = 4.342333242413079
+Test 6 Score = 0.062453698686219916
+
+Number of vertices NV = 506
+Number of edges NE = 1181
+Distortion percentage = 82
+Min ratio = 0.1605173906411732
+Max ratio = 2.450010412306071
+Test 7 Score = 0.06551702386035425
+
+Number of vertices NV = 289
+Number of edges NE = 1617
+Distortion percentage = 13
+Min ratio = 0.10906100791040363
+Max ratio = 3.8258188895955003
+Test 8 Score = 0.028506578867860243
+
+Number of vertices NV = 164
+Number of edges NE = 1470
+Distortion percentage = 15
+Min ratio = 0.10057480921443944
+Max ratio = 18.83849486792639
+Test 9 Score = 0.0053387921869317585
+
+Number of vertices NV = 620
+Number of edges NE = 4353
+Distortion percentage = 28
+Min ratio = 0.14512037388269247
+Max ratio = 6.533448585029436
+Test 10 Score = 0.022211910294238375
+
+Sum of scores = 0.33300182292045366
