@@ -1,0 +1,69 @@
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#include <vector>
+#include <iostream>
+#include <cassert>
+#include <cmath>
+#include <string>
+#include <queue>
+#include <set>
+#include <map>
+#include <cstdlib>
+
+using namespace std;
+
+#define INF 1e+9
+#define mp make_pair
+#define pb push_back
+#define fi first
+#define fs first
+#define se second
+#define i64 long long
+#define li long long
+#define lint long long
+#define pii pair<int, int>
+#define vi vector<int>
+
+#define ld long double
+
+#define forn(i, n) for (int i = 0; i < (int)n; i++)
+#define fore(i, b, e) for (int i = (int)b; i <= (int)e; i++)
+
+const int maxn = 105;
+const ld inf = 1e18;
+ld dp[maxn];
+int endur[maxn];
+int speed[maxn];
+int a[maxn][maxn];
+
+int main() {
+    int tests;
+    scanf("%d", &tests);
+    forn(test, tests) {
+        int n, q;
+        scanf("%d%d", &n, &q);
+        assert(q == 1);
+        forn(j, n)
+            scanf("%d%d", &endur[j], &speed[j]);
+        forn(i, n)
+            forn(j, n) {
+                scanf("%d", &a[i][j]);
+                assert((a[i][j] == -1) == (i + 1 != j));
+            }
+        int useless1, useless2;
+        scanf("%d%d", &useless1, &useless2);
+        dp[n - 1] = 0;
+        for (int i = n - 2; i >= 0; i--) {
+            i64 total = 0;
+            dp[i] = inf;
+            fore(next, i + 1, n - 1) {
+                total += a[next - 1][next];
+                if (total > endur[i])
+                    break;
+                dp[i] = min(dp[i], dp[next] + (ld)total / speed[i]);
+            }
+        }
+        printf("Case #%d: %.10lf\n", test + 1, (double)dp[0]);
+    }
+}
